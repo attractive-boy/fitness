@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/reservation/list",
+    "pages/shop/pay",
+    "pages/reservation/reservation",
+    "pages/bulletin/bulletin",
+    "pages/order/details",
+    "pages/feedback/feedback",
+    "pages/reservation/pay_reservation",
+    "pages/cards/cards",
+    "pages/user/user",
+    "pages/order/order",
+    "pages/shop/pay_result",
+    "pages/index/index4",
+    "pages/shop/shop",
+    "pages/index/index3",
+    "pages/user/login",
+    "pages/user/edit_info",
+    "pages/agreement/agreement",
+    "pages/reservation/update_reservation"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#FF914D",
+    "list": [
+      {
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index.png",
+        "text": "运动",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/tabbar/reservation.png",
+        "selectedIconPath": "static/tabbar/reservation.png",
+        "text": "预约",
+        "pagePath": "pages/reservation/reservation"
+      },
+      {
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user.png",
+        "text": "我的",
+        "pagePath": "pages/user/user"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的位置，便于使用开锁服务"
+    }
+  },
+  "usingComponents": {}
+}

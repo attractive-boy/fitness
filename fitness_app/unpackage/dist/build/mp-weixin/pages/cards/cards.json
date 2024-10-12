@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "次卡",
+  "usingComponents": {
+    "m-navbar": "/components/MNavbar/MNavbar"
+  }
+}

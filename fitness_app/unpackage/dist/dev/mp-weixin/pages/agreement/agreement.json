@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "m-navbar": "/components/MNavbar/MNavbar",
+    "u-parse": "/uni_modules/uview-ui/components/u-parse/u-parse"
+  }
+}

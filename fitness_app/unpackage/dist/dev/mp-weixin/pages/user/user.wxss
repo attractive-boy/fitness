@@ -1,0 +1,135 @@
+
+page {
+  background: #f8f8f8;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header_bg.data-v-80842834 {
+  width: 750rpx;
+  height: 100rpx;
+  background: #fff;
+  color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.info_box.data-v-80842834 {
+  width: 750rpx;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 60rpx 70rpx 40rpx;
+  background: #fff;
+}
+.info_box .user_info.data-v-80842834 {
+  display: flex;
+  align-items: center;
+}
+.info_box .user_info .user_centent.data-v-80842834 {
+  margin-left: 30rpx;
+}
+.info_box .user_info .user_centent .username.data-v-80842834 {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 700;
+}
+.info_box .user_info .user_centent .user_tips.data-v-80842834 {
+  font-size: 23rpx;
+  color: #333;
+  line-height: 50rpx;
+}
+.info_box .edit_box.data-v-80842834 {
+  display: flex;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+}
+.card_box.data-v-80842834 {
+  width: 660rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin: 30rpx auto 0;
+  box-sizing: border-box;
+  padding: 30rpx 40rpx;
+  box-shadow: #ddd 0 0 20rpx;
+}
+.card_box .card_title.data-v-80842834 {
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.card_box .order_box.data-v-80842834 {
+  padding: 0 25rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.card_box .order_item.data-v-80842834 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22rpx;
+  color: #666;
+}
+.card_box .order_item > view.data-v-80842834 {
+  margin-top: 12rpx;
+}
+.tool_box.data-v-80842834 {
+  width: 660rpx;
+  margin: 30rpx auto 0;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15rpx 40rpx;
+  border-radius: 10rpx;
+  box-shadow: #ddd 0 0 20rpx;
+}
+.tool_box .title.data-v-80842834 {
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.tool_box .tool_item.data-v-80842834 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 0;
+  box-sizing: border-box;
+}
+.tool_box .tool_item .to_item_body.data-v-80842834 {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 28rpx;
+}
+.tool_box .tool_item .tool_name.data-v-80842834 {
+  margin-left: 15rpx;
+}
+
